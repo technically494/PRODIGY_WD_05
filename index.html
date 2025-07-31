@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Webpage</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="weather-app">
+    <div class="location-info fade-in">
+      <p id="city">Detecting...</p>
+      <p id="date">--</p>
+    </div>
+
+    <div class="main-weather fade-in">
+      <h1 id="temp">--°C</h1>
+      <p id="description">--</p>
+      <img id="weather-icon" src="assets/icons/clear.png" alt="weather icon" class="icon-bounce" />
+    </div>
+
+    <div class="details fade-in">
+      <div><span>Wind 💨</span><p id="wind">-- km/h</p></div>
+      <div><span>Humidity 💧</span><p id="humidity">--%</p></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
