@@ -36,7 +36,7 @@ It fetches real-time weather data using an API and displays temperature, humidit
 3. Open `index.html` in your browser
 
 ##  Project Link
-
+https://github.com/technically494/Weather
 
 ##  Author
 
